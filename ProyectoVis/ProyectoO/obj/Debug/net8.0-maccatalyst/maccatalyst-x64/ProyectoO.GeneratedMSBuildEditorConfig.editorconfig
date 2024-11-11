@@ -1,0 +1,95 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProyectoO
+build_property.ProjectDir = C:\Users\pc\OneDrive\Desktop\ProyectoVis\ProyectoO\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/Pages/Detalle.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.Pages.Detalle.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Detalle.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Detalle.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/Pages/Inicial.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.Pages.Inicial.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Inicial.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Inicial.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/Pages/Maestro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.Pages.Maestro.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Maestro.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Maestro.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/Pages/PaginaGeneralServicios.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.Pages.PaginaGeneralServicios.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PaginaGeneralServicios.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PaginaGeneralServicios.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/Pages/PaginaInicioSesion.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.Pages.PaginaInicioSesion.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PaginaInicioSesion.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PaginaInicioSesion.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/Pages/PaginaReservas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.Pages.PaginaReservas.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PaginaReservas.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PaginaReservas.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/Pages/PaginaServicios.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.Pages.PaginaServicios.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PaginaServicios.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PaginaServicios.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/Pages/Registro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.Pages.Registro.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Registro.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Registro.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/pc/OneDrive/Desktop/ProyectoVis/ProyectoO/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProyectoO.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

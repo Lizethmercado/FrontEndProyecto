@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoO.Pages.Maestro"
+             Title="Maestro">
+
+    <VerticalStackLayout BackgroundColor="White" Padding="20, 40, 20, 20" Spacing="20">
+        <!-- Ícono de cerrar -->
+        <ImageButton Source="close_icon.png"
+                 WidthRequest="25"
+                 HeightRequest="25"
+                 HorizontalOptions="Start"
+                 BackgroundColor="Transparent"/>
+
+        <!-- Sección del perfil -->
+        <VerticalStackLayout HorizontalOptions="Center" Spacing="5">
+            <Image Source="perfil.jpeg"
+               WidthRequest="80"
+               HeightRequest="80"
+               Aspect="AspectFill">
+                <Image.Clip>
+                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
+                </Image.Clip>
+            </Image>
+            <Label Text="fulanito"
+               FontAttributes="Bold"
+               FontSize="18"
+               TextColor="Black"
+               HorizontalOptions="Center"/>
+            <Label Text="johanna@company.com"
+               FontSize="14"
+               TextColor="Gray"
+               HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+
+        <!-- Opciones de menú con iconos -->
+        <VerticalStackLayout Padding="10,20,10,0" Spacing="15">
+            <!-- Home -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="hogar.png" WidthRequest="24" HeightRequest="24" />
+                <Button Text="Home"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    Grid.Column="1"
+                    HorizontalOptions="FillAndExpand"
+                    Padding="10,0,0,0"/>
+            </Grid>
+
+            <!-- Mis reservas -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="cita.png" WidthRequest="24" HeightRequest="24" />
+                <Button Text="Mis reservas"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    Grid.Column="1"
+                    HorizontalOptions="FillAndExpand"
+                    Padding="10,0,0,0"/>
+            </Grid>
+
+            <!-- Servicios -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="servicio.png" WidthRequest="24" HeightRequest="24" />
+                <Button Text="Servicios"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    Grid.Column="1"
+                    HorizontalOptions="FillAndExpand"
+                    Padding="10,0,0,0"
+                        Clicked="OnServicesClicked"/>
+            </Grid>
+
+            <!-- Combos -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="combo.png" WidthRequest="24" HeightRequest="24" />
+                <Button Text="Combos"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    Grid.Column="1"
+                    HorizontalOptions="FillAndExpand"
+                    Padding="10,0,0,0"/>
+            </Grid>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+
+
+</ContentPage>
